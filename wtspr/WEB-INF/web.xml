@@ -1,0 +1,31 @@
+<web-app>
+<servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/log</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>RServlet</servlet-name>
+  <servlet-class>Rservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>RServlet</servlet-name>
+  <url-pattern>/rg</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>LGservlet</servlet-name>
+  <servlet-class>LGservlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>LGservlet</servlet-name>
+  <url-pattern>/lg</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
