@@ -16,6 +16,9 @@ This repository contains the code and documentation for an Employee Management S
 ## Technologies Used
 
 - Java
+- HTML
+- CSS
+- BOOTSRAP
 - Oracle Database
 - Servlets
 - JSP
